@@ -4,9 +4,9 @@
 void draw(int);
 int main(void)
 {
-    int height;
-    printf("Enter name to search: ");
-    scanf("%i", &height);
+    int height = 3;
+    // printf("Enter name to search: ");
+    // scanf("%i", &height);
     draw(height);
 }
 
